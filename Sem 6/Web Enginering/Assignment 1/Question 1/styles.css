@@ -1,0 +1,54 @@
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 30%;
+    margin-top: 5%;
+}
+#content {
+    left: 0;
+    right: 0;
+    overflow: auto;
+}
+#container{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: greenyellow;
+}
+
+#p4{
+    clear: both;
+}
+section{
+    margin-top: 5%;
+}
+#name{
+    color: greenyellow;
+    font-family: 'Courier New', Courier, monospace;
+}
+a:link {
+    font-size: 100%;
+    color: orange;
+    font-family: 'Courier New', Courier, monospace;
+  color: magenta;
+}
+a:visited {
+  color: magenta;
+}
+a:hover {
+  color: red;
+}
+h1, h2{
+    font-size: 200%;
+    font-family: 'Courier New', Courier, monospace;
+    color: greenyellow;
+    text-align: center;
+}
+
+body{
+    background: black
+    
+}
+    

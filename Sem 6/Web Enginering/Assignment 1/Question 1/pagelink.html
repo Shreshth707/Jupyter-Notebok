@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Link</title>
+    <style>
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(135deg, #aa80ff, #661aff);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    }
+
+    li {
+    float: left;
+    }
+    
+    .custom_width{
+        width: 33.33333%;
+    }
+
+    li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    }
+
+    li a:hover {
+    background-color: #111111;
+    }
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        border:2px solid black;
+    }
+
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+        border:2px solid black;
+    }
+
+    .gradient1{
+        background: linear-gradient(135deg, #aa80ff, #661aff);
+    }
+    .gradient2{
+        background: linear-gradient(135deg, #ff1a1a, #ffb3b3);
+    }
+    .gradient3{
+        background: linear-gradient(135deg, #99ff66, #66ff1a);
+    }
+    .gradient4{
+        background: linear-gradient(135deg, #ff80df, #ff33cc);
+    }
+    .gradient5{
+        background: linear-gradient(135deg, #ffcc00, #cca300);
+    }
+    .gradient6{
+        background: linear-gradient(135deg, #33adff, #0099ff);
+    }
+    body{
+        background-color: #ffb3b3;
+    }
+
+    .footer{
+        margin-top: 50px;
+    }
+    
+    #Video{
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <ul>
+        <li class="custom_width"><a href="#timeTable">Go to TimeTable</a></li>
+        <li class="custom_width"><a href="#Video">Go to Video Display</a></li>
+        <li class="custom_width"><a href="#Image">Go to Image Display</a></li>
+    </ul>
+</div>
+<div id="timeTable">
+    <h1 style="text-align: center;">TIME TABLE</h1>
+
+    <table>
+        <tr>
+        <th>Time</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        </tr>
+        <tr>
+        <td>8:00 AM - 9:00 AM</td>
+        <td></td>
+        <td class="gradient3">ITD18<br>SOFT COMPUTING</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        </tr>
+        <tr>
+        <td>9:00 AM - 10:00 AM</td>
+        <td class="gradient6">ITC21<br>MOD AND SIM</td>
+        <td></td>
+        <td class="gradient3">ITD18<br>SOFT COMPUTING</td>
+        <td class="gradient6">ITC21<br>MOD AND SIM</td>
+        <td class="gradient6">ITC21<br>MOD AND SIM</td>
+        </tr>
+        <tr>
+        <td>10:00 AM - 11:00 AM</td>
+        <td></td>
+        <td class="gradient5">ITC20<br>COMPILER DESIGN</td>
+        <td class="gradient4">ITC19<br>WEB ENGG</td>
+        <td></td>
+        <td class="gradient2">ITD12<br>IMAGE PROCESSING</td>
+        </tr>
+        <tr>
+        <td>11:00 AM - 12:00 PM</td>
+        <td class="gradient2">ITD12<br>IMAGE PROCESSING</td>        
+        <td class="gradient4">ITC19<br>WEB ENGG</td>
+        <td class="gradient5">ITC20<br>COMPILER DESIGN</td>
+        <td class="gradient1">EO008<br>Energy & Environment</td>
+        <td></td>
+        </tr>
+        <tr>
+        <td>12:00 PM - 1:00 PM</td>
+        <td></td>
+        <td></td>
+        <td class="gradient1">EO008<br>Energy & Environment</td>
+        <td class="gradient5">ITC20<br>COMPILER DESIGN</td>
+        <td class="gradient4">ITC19<br>WEB ENGG</td>
+        </tr>
+        <tr>
+        <td>1:00 PM - 2:00 PM</td>
+        <td class="gradient3">ITD18<br>SOFT COMPUTING</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        </tr>
+        <tr>
+        <td>2:00 AM - 3:00 PM</td>
+        <td class="gradient5">ITC20<br>COMPILER DESIGN</td>
+        <td class="gradient1">EO008<br>Energy & Environment</td>
+        <td class="gradient2">ITD12<br>IMAGE PROCESSING</td>
+        <td class="gradient3">ITD18<br>SOFT COMPUTING</td>
+        <td></td>
+        </tr>
+        <tr>
+        <td>3:00 PM - 4:00 PM</td>
+        <td class="gradient4">ITC19<br>WEB ENGG</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="gradient1">EO008<br>Energy & Environment</td>
+        </tr>
+        <tr>
+        <td>4:00 PM - 5:00 PM</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        </tr>
+        <tr>
+        <td>5:00 PM - 6:00 PM</td>
+        <td></td>
+        <td class="gradient6">ITC21<br>MOD AND SIM</td>
+        <td></td>
+        <td class="gradient2">ITD12<br>IMAGE PROCESSING</td>
+        <td></td>
+        </tr>
+    </table>
+    
+</div>
+
+<div id="Video">
+    <h1>Playing Video from Youtube</h1>
+    <iframe width="420" height="345" src="https://www.youtube.com/embed/OIdAu9mXFTk"></iframe>
+    <h1>Video Example in Html</h1>
+    <video width="400" controls>
+        <source src="1.mp4" type="video/mp4">
+        <source src="1.ogg" type="video/ogg">
+        Your browser does not support HTML video.
+    </video>
+
+</div>
+  
+<div id="Image">
+    <h1 style="text-align: center;color:black ;">Image as Background</h1>
+    <h2>Floating Images</h2>
+    
+    <p><strong>Float the image to the right:</strong></p>
+    
+    <p>
+    <img src="1.png" alt="Smiley face" style="float:right;width:60px;height:60px;">
+    Image is Floating to the right of paragraph
+    </p>
+    
+    <p><strong >Float the image to the left:</strong></p>
+    <p>
+    <img src="1.png" alt="Smiley face" style="float:left;width:60px;height:60px;">
+    Image is Floating to the Left of paragraph
+    </p>
+    
+    <p style="text-align: center;margin-top: 100px;font-size: 20px;color: black;"><strong >Positioning the Image in the Center</strong></p>
+    <img src = '1.png' alt="Image" style="margin-left: auto;margin-right: auto;;display: block;">
+    
+</div>
+
+<div class="footer">
+    <ul>
+        <li class="custom_width"><a href="#timeTable">Go to TimeTable</a></li>
+        <li class="custom_width"><a href="#Video">Go to Video Display</a></li>
+        <li class="custom_width"><a href="#Image">Go to Image Display</a></li>
+    </ul>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+h2{
+    text-align: center;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: green;
+}
+hr{
+    background-color: orange;
+    min-height: 10px;
+    border-radius: 30px;
+    border-width: 5px;
+    border-color: chartreuse;
+}
+p{
+    font-style: normal;
+    font-weight: 700;
+    color: orangered;
+    background-color: aqua;
+}
+a{
+    background-color: chartreuse;
+    font-weight: bold;
+    color: black;
+}
+a:hover{
+    color:rgb(230, 15, 68);
+    font-style: italic;
+}
+
+

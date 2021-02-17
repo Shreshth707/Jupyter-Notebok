@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <title>External Styles</title>
+        <style>
+            body{
+                text-align: center;
+                font-size: 25px;
+                background-color: blueviolet;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
+            }
+            body .bgsienna{
+                padding: 20px;
+                background-color: sienna;
+                font-size: 25px;
+                font-weight: 700;
+                text-align: left;
+                color:aliceblue;
+            }
+        </style>
+        <link rel="stylesheet" href="external_css.css">
+    </head>
+    <body>
+        <h1 style="text-align: center;">Name: Shreshth | Roll No: 2018UIT2528<br>Question Number 2</h1>
+        <div class="bgsienna" >
+            Statement: To create an html file by applying the different styles using inline, external &amp;
+            internal style sheets.
+        </div>
+        <hr style="border: 10px;background-color: tomato;">
+        <div class = "bgsienna">Procedure :-
+            <ol>
+                <li>
+                    Create a external style sheet named as “external_css.css” and provide some styles for h2, hr, p
+                    &amp; a tags.
+                </li>
+                <li>
+                    Create an html file named as “Style_sheet.html”
+                    <ol type="a">
+                        <li>
+                            Include the external style sheet with necessary tag.
+                        </li>
+                        <li>
+                            Include the internal style sheet for body tags &amp; also use class name, so that the style
+                            can be applied for all tags.
+                        </li>
+                        <li>
+                            Include a &lt;p&gt; tags with inline style sheet
+                        </li>
+                    </ol>
+                </li>
+            </ol>
+        </div>
+        
+        <h2>This is H2 Tag Styled Using External Css</h2>
+        <hr>
+        <p>This is P Tag Styled Using External Css</p>
+        <div>
+            <a>This is A Tag Styled Using External Css</a>
+        </div>
+        <div style="margin: 10px; font-size: larger;">
+            <a href="code.html">To Check the External Style Sheet Code Click here</a>
+        </div>
+        <div>
+            <p style="background-color: crimson; font-style: italic;color: azure;"> 
+                This is P Tag Styled Using Inline Style Sheet
+            </p>
+        </div>
+    </body>
+</html>
